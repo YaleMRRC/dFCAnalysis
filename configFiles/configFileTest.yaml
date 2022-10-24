@@ -1,0 +1,26 @@
+---
+modeldct : 
+  someLabel : 
+    ipfile: buildModel.npy
+    tps : [59,158,325] 
+    modelFit : posfits
+    featureEdges : posedges
+
+
+subject_list_path: sublist.npy
+ipfile: imageData.npy
+prediction_target: target.csv
+
+avtps_list: [25] 
+
+window_anchor: 'middle'
+
+workdir: workDir/
+
+subs_to_run : 300
+
+niters : 10
+
+subject_list_indices: [0,402]
+
+threshList : [0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]

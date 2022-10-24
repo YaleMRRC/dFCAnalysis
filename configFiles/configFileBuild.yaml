@@ -1,0 +1,6 @@
+---
+niters : 50
+readfile : True
+method : 'crossVal'
+pthresh : 0.05
+cvType : 'splithalf'
